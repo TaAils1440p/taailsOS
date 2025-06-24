@@ -4,8 +4,14 @@ I made my own os
 ## How to run
 Open a terminal and type:
 ```bash
-make && qemu-system-i386 -fda build/main_floppy.img
+chmod +x run.sh
 ```
+And after that:
+```bash
+./run.sh
+```
+
+> Do the same with the `debug.sh` file for debugging
 
 ## Licence
 taailsOS is released under the MIT License.  
