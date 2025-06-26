@@ -5,10 +5,11 @@ I made my own os
 ### Linux (and MacOS)
 Open a terminal and type:
 ```bash
-chmod +x run.sh
+make
 ```
 And after that:
 ```bash
+chmod +x run.sh
 ./run.sh
 ```
 
@@ -17,6 +18,7 @@ And after that:
 ### Windows
 Open a terminal and type:
 ```bash
+make
 ./run.sh
 ```
 
