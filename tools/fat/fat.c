@@ -29,9 +29,11 @@ typedef struct
     uint8_t DriveNumber;
     uint8_t _Reserved;
     uint8_t Signature;
-    uint32_t VolumeId;          // serial number
+    uint32_t VolumeId;          // serial number, value doesn't matter
     uint8_t VolumeLabel[11];    // 11 bytes, padded with spaces
     uint8_t SystemId[8];
+
+    // ... we don't care about code ...
 
 } __attribute__((packed)) BootSector;
 
