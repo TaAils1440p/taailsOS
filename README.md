@@ -6,9 +6,6 @@ I made my own OS.
 Open a terminal and type:
 ```bash
 make
-```
-And after that:
-```bash
 chmod +x run.sh
 ./run.sh
 ```
