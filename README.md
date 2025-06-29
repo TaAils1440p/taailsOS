@@ -22,7 +22,8 @@ make
 ./run.sh
 ```
 
----
+## Makefiles
+In the `Makefile` you can replace the wcc & wlink with your own path
 
 ## Licence
 taailsOS is released under the MIT License.  
